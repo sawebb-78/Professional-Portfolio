@@ -1,6 +1,8 @@
 /*
 *  html5resetcss
+
 */
+
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
 body{line-height:1}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
@@ -16,14 +18,194 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
-h1{
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+@media screen and (min-width:) {
+    #myVideo{
+
+    }
+}
+
+#intro-content {
+    position: fixed;
+    bottom: 0;
+    background: #ce4b4bd5;
+    color: #f1f1f146;
+    width: 100%;
+    padding: 20px;
+}
+
+
+body{
+    background-color: #F6C8E4;
+    color: darkslategrey;
+    
+}
+
+nav{
+    padding-top: 7vw;
+    padding-left: 5vw;
+    padding-bottom: 5vw;
+    padding-right: 5vw;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+nav a{
+    border: gray solid 5pt;
+    padding: 10px;
+    min-width: 15vw;
+    text-align:center;
+    color: gray;
+    background-color: 
+}
+
+#top{
+    border: darkgray solid 10pt;
+    margin-bottom: 5vw;
+    background-color: rgba(248, 128, 190, 0.38);
+    padding-bottom: 20vw;
+    overflow: wrap;
+    background-image: url(/images/background.png);
+    background-repeat: no-repeat;
+    
+
+}
+
+#title-name{
+    color: darkslategrey
+}
+
+#title {
+    font-size: 10em;
+    padding-top: 15vw;
+    padding-bottom: 5vw;
+    padding-left: 2vw;
+    text-align: center;
+}
+
+
+#my-name{
+    font-size: 5em;
+    padding-top: 3vw;
+    padding-right: 5vw;
+    text-align: right;
     
 }
 
 
+
+
+
+h2{
+    font-size: 2.5em;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+#about{
+    display: grid;
+    background-color:#F6C8E4;
+}
+
+#about-me{
+    /* grid so that title is centered on page (on 1st row)
+    
+
+    */
+}
+
+#about-boxes{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#about img{
+    border-radius: 50%;
+    align-content: center;
+    padding-top: 50px;
+    border: grey 5pt solid;
+    padding: 1pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
+
+    /* use grid to center image better with text */
+}
+
+#about p{
+    line-height: 1.5;
+    padding-left: 10px;
+}
+
+
+#my-work{
+    margin:5vw;
+    display:grid;
+}
+
+#my-work-boxes{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+.my-work-1,
+.my-work-2,
+.my-work-3,
+.my-github,
+.my-linkedin {
+    border: black solid 2px;
+    min-width: 40vw;
+    min-height: 50vw;
+    background-color: gray;
+    
+}
+
+
+
+
+#contact{
+    position: relative;
+    margin: 5vw;
+    
+
+}
+
 footer{
     text-align:center;
     margin:auto;
-    width: 500px;
+    width:50vw;
 
+}
+
+footer p{
+    font-size: 20pt;
+}
+
+#contact-icons{
+    display:flex;
+    justify-content: center;
+}
+
+.contact-icon
+.up-icon{
+
+
+}
+
+.contact-icon:hover{
+
+}
+
+a:hover{
+    color: purple;
 }
